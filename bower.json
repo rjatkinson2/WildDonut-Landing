@@ -1,0 +1,25 @@
+{
+  "name": "WildDonut-Landing",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rjatkinson2/WildDonut-Landing",
+  "authors": [
+    "Ryan Atkinson <rjatkinson2@gmail.com>"
+  ],
+  "description": "Landing Page for WildDonut's mobile miyagi application",
+  "main": "index.html",
+  "keywords": [
+    "landing",
+    "miyagi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
