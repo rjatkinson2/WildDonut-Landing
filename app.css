@@ -24,16 +24,20 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   border: 1px solid #E3EDF3;
 }
 .five{
+  background: #FFFFFF;
+  padding:8.0em 16.0em;
+}
+.six{
   background: radial-gradient(50% 150%, rgba(133,206,155,0.90) 50%, rgba(133,206,155,0.50) 100%) no-repeat,
               url(surf.jpg) center center no-repeat;;
   background-size: cover;
 }
-.six{
+.seven{
   background: #2E3E4B;
   padding: 2.0em;
 }
 
-.one, .two, .three, .four, .five{
+.one, .two, .three, .four, .six{
   padding:5.0em 16.0em;
 }
 
@@ -43,3 +47,20 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   margin-left: 10px;
 }
 
+.prof-circle {
+  display: block;
+  margin: 1.0em auto;
+  background-size: cover;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: solid 3px #FFF;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
+
+.five p{
+  text-align: center;
+}
