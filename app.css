@@ -1,14 +1,16 @@
-h1 { font-family: Fontastique-Fontastique; font-size: 64px; color: #FFFFFF; line-height: 1.20em; }
-h2 { font-family: Exo2-Thin; font-size: 30px; color: #FFFFFF; line-height: 1.20em; }
-h4 { font-family: Exo2-Regular; font-size: 30px; color: #2E3E4B; line-height: 1.20em; }
-h3 { font-family: Exo2-LightItalic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; }
+h1 { font-family: Fontastique-Fontastique; font-size: 64px; color: #FFFFFF; line-height: 1.20em; margin: 2.0em 0 0 0; }
+h2 { font-family: Exo2-Thin; font-size: 30px; color: #FFFFFF; line-height: 1.20em; margin: 0; }
+h3 { font-family: Exo2-LightItalic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; margin-top: 0; }
+h4 { font-family: Exo2-Regular; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 5.0em 0 0 0; }
 h5 { font-family: Exo2-Light; font-size: 20px; color: #7F7F7F; line-height: 1.20em; }
-h6 { font-family: Exo2-BoldItalic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center;}
+h6 { font-family: Exo2-BoldItalic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center; }
 p { font-family: Exo2-Light; font-size: 14px; color: #7F7F7F; line-height: 1.21em; }
-
+button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em 0; }
 
 .one{
-  background-image: radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%);
+  background: url(polygons@2x.png) center center no-repeat,
+              radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%) no-repeat;
+  background-size: cover;
 }
 .two{
   background-image: radial-gradient(50% 205%, #FDFEFE 50%, #EEF3F5 100%);
@@ -27,3 +29,14 @@ p { font-family: Exo2-Light; font-size: 14px; color: #7F7F7F; line-height: 1.21e
 .six{
   background: #2E3E4B;
 }
+
+.one, .two, .three, .four, .five, .six{
+  padding:5.0em 16.0em;
+}
+
+.google{
+  border-color:#FFF;
+  background: none;
+  margin-left: 10px;
+}
+
