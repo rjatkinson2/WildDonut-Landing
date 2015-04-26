@@ -24,13 +24,16 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   border: 1px solid #E3EDF3;
 }
 .five{
-  background: rgba(120,200,143,0.91);
+  background: radial-gradient(50% 150%, rgba(133,206,155,0.90) 50%, rgba(133,206,155,0.50) 100%) no-repeat,
+              url(surf.jpg) center center no-repeat;;
+  background-size: cover;
 }
 .six{
   background: #2E3E4B;
+  padding: 2.0em;
 }
 
-.one, .two, .three, .four, .five, .six{
+.one, .two, .three, .four, .five{
   padding:5.0em 16.0em;
 }
 
