@@ -1,0 +1,29 @@
+h1 { font-family: Fontastique-Fontastique; font-size: 64px; color: #FFFFFF; line-height: 1.20em; }
+h2 { font-family: Exo2-Thin; font-size: 30px; color: #FFFFFF; line-height: 1.20em; }
+h4 { font-family: Exo2-Regular; font-size: 30px; color: #2E3E4B; line-height: 1.20em; }
+h3 { font-family: Exo2-LightItalic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; }
+h5 { font-family: Exo2-Light; font-size: 20px; color: #7F7F7F; line-height: 1.20em; }
+h6 { font-family: Exo2-BoldItalic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center;}
+p { font-family: Exo2-Light; font-size: 14px; color: #7F7F7F; line-height: 1.21em; }
+
+
+.one{
+  background-image: radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%);
+}
+.two{
+  background-image: radial-gradient(50% 205%, #FDFEFE 50%, #EEF3F5 100%);
+  border: 1px solid #D4D4D4;
+}
+.three{
+  background: #FFFFFF;
+}
+.four{
+  background: #F6FAFC;
+  border: 1px solid #E3EDF3;
+}
+.five{
+  background: rgba(120,200,143,0.91);
+}
+.six{
+  background: #2E3E4B;
+}
