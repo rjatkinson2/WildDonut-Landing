@@ -8,7 +8,7 @@ p { font-family: Exo2-Light; font-size: 14px; color: #7F7F7F; line-height: 1.21e
 button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em 0; }
 
 .one{
-  background: url(polygons@2x.png) center center no-repeat,
+  background: url(images/polygons@2x.png) center center no-repeat,
               radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%) no-repeat;
   background-size: cover;
   padding: 7.0em 16.0em;
@@ -30,7 +30,7 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 }
 .six{
   background: radial-gradient(50% 150%, rgba(133,206,155,0.90) 50%, rgba(133,206,155,0.50) 100%) no-repeat,
-              url(surf.jpg) center center no-repeat;;
+              url(images/surf.jpg) center center no-repeat;;
   background-size: cover;
 }
 .seven{
@@ -60,6 +60,11 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   width: 100px;
   height: 100px;
   z-index: 100;
+}
+
+.two img{
+  float: right;
+  margin-right: 0.1em;
 }
 
 .five p{
