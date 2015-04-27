@@ -11,6 +11,7 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   background: url(polygons@2x.png) center center no-repeat,
               radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%) no-repeat;
   background-size: cover;
+  padding: 7.0em 16.0em;
 }
 .two{
   background-image: radial-gradient(50% 205%, #FDFEFE 50%, #EEF3F5 100%);
@@ -37,7 +38,7 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   padding: 2.0em;
 }
 
-.one, .two, .three, .four, .six{
+.two, .three, .four, .six{
   padding:5.0em 16.0em;
 }
 
@@ -63,4 +64,12 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 
 .five p{
   text-align: center;
+}
+
+.five p a{
+  margin:0.5em;
+}
+
+.five p img{
+  display: inline;
 }
