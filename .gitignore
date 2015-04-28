@@ -1,2 +1,5 @@
 # ignored files here
-bower_components
+node_modules
+npm-debug.log
+.DS_Store
+/*.env

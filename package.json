@@ -1,0 +1,30 @@
+{
+  "name": "miyagi-landing",
+  "version": "0.0.1",
+  "description": "Landing page for miyagi mobile application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": { 
+    "node": "0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WildDonut/WildDonut-Landing.git"
+  },
+  "keywords": [
+    "miyagi"
+  ],
+  "author": "Ryan Atkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WildDonut/WildDonut-Landing/issues"
+  },
+  "homepage": "https://github.com/WildDonut/WildDonut-Landing",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "express": "^4.12.3"
+  }
+}
