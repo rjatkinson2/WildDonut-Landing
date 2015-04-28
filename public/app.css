@@ -21,15 +21,15 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   padding: 7.0em 12.0em;
 }
 .two{
-  background-image: radial-gradient(50% 205%, #FDFEFE 50%, #EEF3F5 100%);
+  background-image: radial-gradient(50% 205%, #FDFEFE 50%, #E3EDF3 100%);
   border: 1px solid #D4D4D4;
 }
 .three{
   background: #FFFFFF;
 }
 .four{
-  background: #F6FAFC;
-  border: 1px solid #E3EDF3;
+  background: #E3EDF3;
+  border: 1px solid #CAD2D6;
 }
 .five{
   background: #FFFFFF;
