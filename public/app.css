@@ -22,7 +22,7 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 }
 .two{
   background-image: radial-gradient(50% 205%, #FDFEFE 50%, #E3EDF3 100%);
-  border: 1px solid #D4D4D4;
+  border: 1px solid #E3EDF3;
 }
 .three{
   background: #FFFFFF;
