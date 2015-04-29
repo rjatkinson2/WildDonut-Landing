@@ -28,8 +28,8 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   background: #FFFFFF;
 }
 .four{
-  background: #E3EDF3;
-  border: 1px solid #CAD2D6;
+  background: #F6FAFC;
+  border: 1px solid #E3EDF3;
 }
 .five{
   background: #FFFFFF;
@@ -71,6 +71,14 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 .two img{
   float: right;
   margin: 0.7em 0.1em;
+}
+
+.four{
+  padding: 5.0em 20.0em;
+}
+
+.five{
+  padding: 10.0em 18.0em;
 }
 
 .five p{
