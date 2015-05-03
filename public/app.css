@@ -5,20 +5,19 @@
   font-style:normal;
 }
 
-h1 { font-family: "Fontastique"; font-size: 90px; color: #FFFFFF; line-height: 1.20em; margin: 1.0em 0 0 0; }
-h2 { font-family: "Exo 2", sans-serif; font-weight: 100; font-size: 30px; color: #FFFFFF; line-height: 1.20em; margin: 0; }
+h1 { font-family: "Fontastique"; font-size: 90px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: center;}
+h2 { font-family: "Exo 2", sans-serif; font-weight: 100; font-size: 30px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: center;}
 h3 { font-family: "Exo 2", sans-serif; font-weight: 300; font-style: italic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; margin-top: 0; }
-h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 5.0em 0 0 0; }
+h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 0; }
 h5 { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 20px; color: #7F7F7F; line-height: 1.20em; }
 h6 { font-family: "Exo 2", sans-serif; font-weight: 700; font-style: italic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center; }
 p { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 14px; color: #7F7F7F; line-height: 1.21em; }
-button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em 0; }
+button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em auto; display: block;}
 
 .one{
   background: url(images/polygons@2x.png) center center no-repeat,
               radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%) no-repeat;
   background-size: cover;
-  padding: 7.0em 12.0em;
 }
 .two{
   background-image: radial-gradient(50% 205%, #FDFEFE 50%, #E3EDF3 100%);
@@ -33,7 +32,6 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 }
 .five{
   background: #FFFFFF;
-  padding:8.0em 8.0em;
 }
 .six{
   background: radial-gradient(50% 150%, rgba(133,206,155,0.90) 50%, rgba(133,206,155,0.50) 100%) no-repeat,
@@ -42,17 +40,15 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 }
 .seven{
   background: #2E3E4B;
-  padding: 2.0em;
 }
 
-.two, .three, .four, .six{
-  padding:5.0em 16.0em;
+.one, .two, .three, .four, .five, .six, .seven{ 
+  padding: 4.0em 0;
 }
 
 .google{
   border-color:#FFF;
   background: none;
-  margin-left: 10px;
 }
 
 .prof-circle {
@@ -64,21 +60,23 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   background-position: center center;
   border-radius: 50%;
   border: solid 3px #FFF;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
 }
 
 .two img{
   float: right;
-  margin: 0.7em 0.1em;
+  margin: 0.7em 1.0em;
+}
+
+.two .col-xs-12{
+  padding: 2.0em 1.0em;
 }
 
 .four{
-  padding: 5.0em 20.0em;
 }
 
 .five{
-  padding: 10.0em 18.0em;
 }
 
 .five p{
@@ -91,4 +89,88 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 
 .five p img{
   display: inline;
+}
+
+@media (min-width: 768px){
+
+  h1 { font-family: "Fontastique"; font-size: 90px; color: #FFFFFF; line-height: 1.20em; margin: 1.0em 0 0 0; text-align: left;}
+  h2 { font-family: "Exo 2", sans-serif; font-weight: 100; font-size: 30px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: left;}
+  h3 { font-family: "Exo 2", sans-serif; font-weight: 300; font-style: italic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; margin-top: 0; }
+  h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 5.0em 0 0 0; }
+  h5 { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 20px; color: #7F7F7F; line-height: 1.20em; }
+  h6 { font-family: "Exo 2", sans-serif; font-weight: 700; font-style: italic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center; }
+  p { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 14px; color: #7F7F7F; line-height: 1.21em; }
+  button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em 0; display: inline-block;}
+
+  .one{
+    background: url(images/polygons@2x.png) center center no-repeat,
+                radial-gradient(50% 150%, #4C6277 50%, #2C3A47 100%) no-repeat;
+    background-size: cover;
+    padding: 7.0em 5%;
+  }
+  .two{
+    background-image: radial-gradient(50% 205%, #FDFEFE 50%, #E3EDF3 100%);
+    border: 1px solid #E3EDF3;
+    padding: 0 10%;
+  }
+  .three{
+    background: #FFFFFF;
+  }
+  .four{
+    background: #F6FAFC;
+    border: 1px solid #E3EDF3;
+  }
+  .five{
+    background: #FFFFFF;
+    padding:8.0em 0;
+  }
+  .six{
+    background: radial-gradient(50% 150%, rgba(133,206,155,0.90) 50%, rgba(133,206,155,0.50) 100%) no-repeat,
+                url(images/surf.jpg) center center no-repeat;;
+    background-size: cover;
+  }
+  .seven{
+    background: #2E3E4B;
+    padding: 2.0em;
+  }
+
+  .two, .three, .four, .six{
+    padding:5.0em 0;
+  }
+
+  .google{
+    border-color:#FFF;
+    background: none;
+    margin-left: 10px;
+  }
+
+  .prof-circle {
+    width: 110px;
+    height: 110px;
+  }
+
+  .two img{
+    float: right;
+    margin: 0.7em 0.1em;
+  }
+
+  .four{
+    padding: 5.0em 0;
+  }
+
+  .five{
+    padding: 10.0em 0;
+  }
+
+  .five p{
+    text-align: center;
+  }
+
+  .five p a{
+    margin:0.5em;
+  }
+
+  .five p img{
+    display: inline;
+  }
 }
