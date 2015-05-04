@@ -5,11 +5,11 @@
   font-style:normal;
 }
 
-h1 { font-family: "Fontastique"; font-size: 90px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: center;}
-h2 { font-family: "Exo 2", sans-serif; font-weight: 100; font-size: 30px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: center;}
+h1 { font-family: "Fontastique"; font-size: 70px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: center;}
+h2 { font-family: "Exo 2", sans-serif; font-weight: 100; font-size: 20px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: center;}
 h3 { font-family: "Exo 2", sans-serif; font-weight: 300; font-style: italic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; margin-top: 0; }
-h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 0; }
-h5 { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 20px; color: #7F7F7F; line-height: 1.20em; }
+h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 24px; color: #2E3E4B; line-height: 1.20em; margin: 0; text-align: center;}
+h5 { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 18px; color: #7F7F7F; line-height: 1.20em; text-align: center;}
 h6 { font-family: "Exo 2", sans-serif; font-weight: 700; font-style: italic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center; }
 p { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 14px; color: #7F7F7F; line-height: 1.21em; }
 button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em auto; display: block;}
@@ -73,7 +73,25 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   padding: 2.0em 1.0em;
 }
 
-.four{
+.three img{
+  height: 300px;
+  display: block;
+  margin: 2.0em auto;
+}
+
+.four img{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.four img.icons{
+  width: 200px;
+  margin-top: 2.0em;
+}
+
+.four img.stack{
+  margin-top: 2.0em;
 }
 
 .five{
@@ -91,13 +109,18 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   display: inline;
 }
 
+.headline{
+  height: 450px;
+  display: none;
+}
+
 @media (min-width: 768px){
 
   h1 { font-family: "Fontastique"; font-size: 90px; color: #FFFFFF; line-height: 1.20em; margin: 1.0em 0 0 0; text-align: left;}
   h2 { font-family: "Exo 2", sans-serif; font-weight: 100; font-size: 30px; color: #FFFFFF; line-height: 1.20em; margin: 0; text-align: left;}
   h3 { font-family: "Exo 2", sans-serif; font-weight: 300; font-style: italic; font-size: 20px; color: #5C5C5C; line-height: 1.20em; margin-top: 0; }
-  h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 5.0em 0 0 0; }
-  h5 { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 20px; color: #7F7F7F; line-height: 1.20em; }
+  h4 { font-family: "Exo 2", sans-serif; font-weight: 400; font-size: 30px; color: #2E3E4B; line-height: 1.20em; margin: 5.0em 0 0 0; text-align: left}
+  h5 { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 20px; color: #7F7F7F; line-height: 1.20em; text-align: left}
   h6 { font-family: "Exo 2", sans-serif; font-weight: 700; font-style: italic; font-size: 24px; color: #FFFFFF; line-height: 1.21em; text-align: center; }
   p { font-family: "Exo 2", sans-serif; font-weight: 300; font-size: 14px; color: #7F7F7F; line-height: 1.21em; }
   button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; margin: 2.0em 0; display: inline-block;}
@@ -135,7 +158,7 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
   }
 
   .two, .three, .four, .six{
-    padding:5.0em 0;
+    padding:5.0em 3.0em;
   }
 
   .google{
@@ -154,8 +177,28 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
     margin: 0.7em 0.1em;
   }
 
+  .three img{
+    height: 450px;
+    float: right;
+  }
+
   .four{
     padding: 5.0em 0;
+  }
+
+  .four h4, .four h5{
+    text-align: right;
+  }
+
+  .four img.stack{
+    width: 500px;
+    margin-left: 6.0em;
+  }
+
+  .four img.icons{
+    width: 250px;
+    float: left;
+    margin-top: -10px;
   }
 
   .five{
@@ -172,5 +215,10 @@ button{ background: #E45743; border: 1px solid #E45743; padding: 0.8em 2.8em; ma
 
   .five p img{
     display: inline;
+  }
+
+  .headline{
+    height: 450px;
+    display: initial;
   }
 }
